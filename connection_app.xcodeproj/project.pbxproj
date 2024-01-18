@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA74689C2B598D2900BAE739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74689B2B598D2900BAE739 /* ContentView.swift */; };
 		AABC9CB12B134FC200AC5501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC9CB02B134FC200AC5501 /* AppDelegate.swift */; };
 		AABC9CB32B134FC200AC5501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC9CB22B134FC200AC5501 /* SceneDelegate.swift */; };
 		AABC9CB52B134FC200AC5501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC9CB42B134FC200AC5501 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA74689B2B598D2900BAE739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AABC9CAD2B134FC200AC5501 /* connection_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = connection_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC9CB02B134FC200AC5501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AABC9CB22B134FC200AC5501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				AABC9CB92B134FC300AC5501 /* Assets.xcassets */,
 				AABC9CBB2B134FC300AC5501 /* LaunchScreen.storyboard */,
 				AABC9CBE2B134FC300AC5501 /* Info.plist */,
+				AA74689B2B598D2900BAE739 /* ContentView.swift */,
 			);
 			path = connection_app;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABC9CB52B134FC200AC5501 /* ViewController.swift in Sources */,
+				AA74689C2B598D2900BAE739 /* ContentView.swift in Sources */,
 				AABC9CB12B134FC200AC5501 /* AppDelegate.swift in Sources */,
 				AABC9CB32B134FC200AC5501 /* SceneDelegate.swift in Sources */,
 				AABC9CC52B13501900AC5501 /* ChatManager.swift in Sources */,
@@ -222,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

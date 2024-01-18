@@ -5,24 +5,16 @@
 //  Created by Adam Barta on 26.11.2023.
 //
 
-import UIKit
+import SwiftUI
 
-class ViewController: UIViewController {
+@main
+struct PeerChatApp: App {
+    @ObservedObject private var chat = ChatManger()
 
-    var chatManager: ChatManager!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Initialize ChatManager
-        chatManager = ChatManager()
-
-        // Start advertising and browsing
-        chatManager.startAdvertising()
-        chatManager.startBrowsing()
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .environmentObject(chat)
+        }
     }
-
-    // Add code for sending messages and handling the chat UI as needed
 }
-
-
