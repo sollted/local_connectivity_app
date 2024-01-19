@@ -1,0 +1,4 @@
+Content View:
+Zahrnuje seznam chatů a připojených uživatelů. Kód využívá modelu ChatManager, který obsahuje informace o chatech a připojených uživatelích.
+bude propojen s dalšímy kompnenty UI
+Mapou hráčů jsem neobratně nazval list uživatelů samotný chat (zprávy) 

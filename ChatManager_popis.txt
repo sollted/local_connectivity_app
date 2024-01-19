@@ -1,0 +1,24 @@
+    Struktury:
+        Message: Je zprávu v chatu. drží text zprávy, info o odesílateli (Person), a unikátní identifikátor (UUID).
+        Person: Představuje účastníka chatu s názvem a identifikátorem (UUID). Implementuje protokoly Codable, Equatable a Hashable.
+        Chat: Obsahuje seznam zpráv, informace o konkrétním uživateli (Person), a unikátní identifikátor (UUID). Implementuje protokol Equatable.
+
+    Struktury pro komunikaci:
+        PeerInfo: Slouží k reprezentaci typu informací o účastnících (v tomto případě pouze typ Person).
+        ConnectMessage: Reprezentuje zprávu o komunikaci, která může obsahovat buď zprávu (Message) nebo informace o účastníkovi (Person).
+
+    Třída ChatManager:
+        Spravuje chatovací relace a obsahuje metody pro odesílání zpráv, přijímání informací a správu nových připojení.
+        Vytváří a spravuje relace pomocí tříd MCSession, MCNearbyServiceAdvertiser, a MCNearbyServiceBrowser.
+        Obsahuje metody pro zpracování nových připojení (newConnection), příchozích informací (reciveInfo), nových osob (newPerson), a nových zprává (newMessage)
+
+    Extensions pro class ChatManager (Extensions jsou něco jako funkce pro classes):
+        Pracují s různými možnostmi která mohou nastat jako například:
+            Když program nezačne skenovat okolní zařízení
+            Nebo když je nalezeno PeerId
+            Zařízení (PeerId) ztraceno
+            Když jseme pozváni do (session) skupiny
+            Když se odpojíme od skupiny
+            Když nejsme schopni přečíst přijatou zprávu
+
+    Většina tohoto jsou funkce MCDelegate generované Xcodem z knihovny MultiPeerConnectivity které jsem dopsal/vyplnil.
