@@ -1,0 +1,8 @@
+Message_format - Tato struktura nám slouží jako "pravidla" pro jednoduché zobrazování zpráv.
+Zabraňuje zprávám umístění na nesprávné straně a umožňuje správné odlamování řádků.
+
+TFieldStyle - Tento prvek slouží k standardizaci zobrazení zpráv.
+V budoucnu nám tento "styl" umožní snadno měnit vizuální podobu aplikace.
+
+
+
