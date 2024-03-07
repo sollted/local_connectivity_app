@@ -1,3 +1,41 @@
+Co je herní mechanika:
+    nevěděl jsem jak lépe tutu část pojmenovat tady je snad lepší popis:
+
+    Herní mechanika je název pro pravidla a interakce, které tvoří jádro uživatelského rozhraní. 
+
+    Uživatel bude moct ovládat aplikaci dvoumi způsoby:
+        1. dotykem na obrazovce
+        2. klávesicí na obrazovce
+
+    Herní mechanika implementuje "pravidla klávesnice" např: 
+        kam se bude ukládat zpráva po stisknutí enteru
+        má uživatel právo psát
+        komu se bude zpráva posílat
+        co když se zpráva poslat nedá
+        co se bude dít když uživatel napíše illegální charakter
+        atd.
+
+Proč a jak zapadá herní mechanika do aplikace:
+    bez této logiky by byla aplikace více nebezpečnější a z velké části nepoužitelná.
+    V popisu rozsahu se o herní mechanice nemluví protože jsem si její důležitost uvědomil až při implementaci. za to se omlouvám.
+    herní mechanika nemá  grafické rozhraní, spíše na něm staví další (UI).
+    
+Testování:
+    Testování bude probíhat na dvou zařízeních. Jeden bude sloužit jako přijímač a druhý jako klient.
+    toto je bohužel jediný způsob o kterém vím.
+    problém s tímto způsobem je ten že na to aby se aplikace dostala na telefony musím být:
+        apple developer (to mě bude stát peníze)
+        aplikace musí být schválená pro testflight applem (na to musí být více méně celá)
+        a komponenty na které se aplikace spoléhá musí být funkční
+        pracuji na všem víše zmíněném a částečně mám již hotovo.
+
+    S těmito potížemi jsem počítal částečně a proto jsem si na ně udělal čas v hodnotícím listu:
+        odevzdání propojení elementů hry
+
+    Tento postup je mi proti srsti, ale hledal jsem jak jsem mohl a toto se mi jeví jako jediný způsob.
+    Dokonce jsem si volal s profesionálním developerem a ten mi bohužel potvrdil že toto je jediná cesta.
+    
+Popis:
     Struktury:
         Message: Je zprávu v chatu. drží text zprávy, info o odesílateli (Person), a unikátní identifikátor (UUID).
         Person: Představuje účastníka chatu s názvem a identifikátorem (UUID). Implementuje protokoly Codable, Equatable a Hashable.
