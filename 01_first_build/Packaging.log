@@ -1,0 +1,172 @@
+2024-03-06 7:41:29 PM +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x46f956040; archive(resolved)="<IDEArchive: 0x60008274d920>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (18, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x46f956040; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x46f94b9f0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x46f920ef0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4716529a0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4716525c0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2cafdf540; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2cadcc8a0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2cadc9e00; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2cadc7910; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2db89b030; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x472867f30; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x47283a720; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x472841e30; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600011f11880; teamID='TGBYYGZ639', teamName='ADAM TOMÁS BÁRTA', teamType='Individual', username='soltandpepar@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x4507f1650; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="(null)">
+	<IDEDistributionContext: 0x47281b590; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000081cd630>", team="(null)">
+	<IDEDistributionContext: 0x471661dd0; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x472c25080; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2cafcf350; archive = "<IDEArchive: 0x60008274d920>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x46f956040>
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCopyItemStep
+2024-03-06 7:41:29 PM +0000  Running /usr/bin/ditto '-V' '/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app'
+2024-03-06 7:41:29 PM +0000  >>> Copying /Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app 
+2024-03-06 7:41:29 PM +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-03-06 7:41:29 PM +0000  3015 bytes for ./_CodeSignature/CodeResources
+2024-03-06 7:41:29 PM +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-03-06 7:41:29 PM +0000  2689 bytes for ./AppIcon60x60@2x.png
+2024-03-06 7:41:29 PM +0000  copying file ./Main.storyboardc/Info.plist ... 
+2024-03-06 7:41:29 PM +0000  115 bytes for ./Main.storyboardc/Info.plist
+2024-03-06 7:41:29 PM +0000  copying file ./Assets.car ... 
+2024-03-06 7:41:29 PM +0000  25880 bytes for ./Assets.car
+2024-03-06 7:41:29 PM +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-03-06 7:41:29 PM +0000  3356 bytes for ./AppIcon76x76@2x~ipad.png
+2024-03-06 7:41:29 PM +0000  copying file ./connection_app ... 
+2024-03-06 7:41:29 PM +0000  225792 bytes for ./connection_app
+2024-03-06 7:41:29 PM +0000  copying file ./embedded.mobileprovision ... 
+2024-03-06 7:41:29 PM +0000  14339 bytes for ./embedded.mobileprovision
+2024-03-06 7:41:29 PM +0000  copying file ./Info.plist ... 
+2024-03-06 7:41:29 PM +0000  1539 bytes for ./Info.plist
+2024-03-06 7:41:29 PM +0000  copying file ./PkgInfo ... 
+2024-03-06 7:41:29 PM +0000  8 bytes for ./PkgInfo
+2024-03-06 7:41:29 PM +0000  /usr/bin/ditto exited with 0
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionInfoPlistStep
+2024-03-06 7:41:29 PM +0000  Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionItemRemovalStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-03-06 7:41:29 PM +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCompileBitcodeStep
+2024-03-06 7:41:29 PM +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCodeSlimmingStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionSymbolsStep
+2024-03-06 7:41:29 PM +0000  Processing symbols for connection_app.app
+2024-03-06 7:41:29 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app' '--link-dest' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9'
+2024-03-06 7:41:29 PM +0000  building file list ... 
+2024-03-06 7:41:29 PM +0000   0 files...2024-03-06 7:41:29 PM +0000  12 files to consider
+2024-03-06 7:41:29 PM +0000  connection_app.app/
+2024-03-06 7:41:29 PM +0000  connection_app.app/Main.storyboardc/
+connection_app.app/_CodeSignature/
+2024-03-06 7:41:29 PM +0000  
+2024-03-06 7:41:29 PM +0000  sent 445 bytes  received 38 bytes  966.00 bytes/sec
+total size is 270.21K  speedup is 572.87
+2024-03-06 7:41:29 PM +0000  /usr/bin/rsync exited with 0
+2024-03-06 7:41:29 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/dSYMs/' '--link-dest' '/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/dSYMs/' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9'
+2024-03-06 7:41:29 PM +0000  building file list ... 
+2024-03-06 7:41:29 PM +0000   0 files...2024-03-06 7:41:29 PM +0000  10 files to consider
+2024-03-06 7:41:29 PM +0000  ./
+2024-03-06 7:41:29 PM +0000  connection_app.app.dSYM/
+connection_app.app.dSYM/Contents/
+connection_app.app.dSYM/Contents/Resources/
+connection_app.app.dSYM/Contents/Resources/DWARF/
+connection_app.app.dSYM/Contents/Resources/Relocations/
+connection_app.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-03-06 7:41:29 PM +0000  
+2024-03-06 7:41:29 PM +0000  sent 338 bytes  received 62 bytes  800.00 bytes/sec
+total size is 1.49M  speedup is 3917.42
+2024-03-06 7:41:29 PM +0000  /usr/bin/rsync exited with 0
+2024-03-06 7:41:29 PM +0000  Writing /var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Symbols/C3D0EE62-A2E2-3456-85AE-955582B254F3.symbols
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionAppThinningStep
+2024-03-06 7:41:29 PM +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionArchThinningStep
+2024-03-06 7:41:29 PM +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app/connection_app' '-verify_arch' 'arm64e'
+2024-03-06 7:41:29 PM +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-03-06 7:41:29 PM +0000  Skipping architecture thinning for item "connection_app" because arch "arm64e" wasn't found
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionODRStep
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionStripXattrsStep
+2024-03-06 7:41:29 PM +0000  Running /usr/bin/xattr '-crs' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app'
+2024-03-06 7:41:29 PM +0000  /usr/bin/xattr exited with 0
+2024-03-06 7:41:29 PM +0000  Processing step: IDEDistributionCodesignStep
+2024-03-06 7:41:29 PM +0000  Entitlements for <IDEDistributionItem: 0x6000827506c0; bundleID='Xc3j4q7HuuiY', path='<DVTFilePath:0x600086a2d1f0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e54c7d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b937b40; name='Apple Development: ADAM TOMÁS BÁRTA (V5PA96PX22)', hash='DEEB6461BCC814AA59BE00CB75B59DE3B8B1D42A', serialNumber='2DB4677BD855728044AE9D1946F1B737', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-06 5:38:22 PM +0000''>', entitlements='{
+    "application-identifier" = "TGBYYGZ639.Xc3j4q7HuuiY";
+    "com.apple.developer.team-identifier" = TGBYYGZ639;
+    "get-task-allow" = 1;
+}', teamID='TGBYYGZ639', identifier='Xc3j4q7HuuiY', executablePath='<DVTFilePath:0x600086a241c0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app/connection_app'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "TGBYYGZ639.Xc3j4q7HuuiY";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = TGBYYGZ639;
+    "get-task-allow" = 0;
+}
+2024-03-06 7:41:29 PM +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-03-06 7:41:29 PM +0000  Entitlements for <IDEDistributionItem: 0x6000827506c0; bundleID='Xc3j4q7HuuiY', path='<DVTFilePath:0x600086a2d1f0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e54c7d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b937a80; name='Apple Development: ADAM TOMÁS BÁRTA (V5PA96PX22)', hash='DEEB6461BCC814AA59BE00CB75B59DE3B8B1D42A', serialNumber='2DB4677BD855728044AE9D1946F1B737', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-06 5:38:22 PM +0000''>', entitlements='{
+    "application-identifier" = "TGBYYGZ639.Xc3j4q7HuuiY";
+    "com.apple.developer.team-identifier" = TGBYYGZ639;
+    "get-task-allow" = 1;
+}', teamID='TGBYYGZ639', identifier='Xc3j4q7HuuiY', executablePath='<DVTFilePath:0x600086a241c0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app/connection_app'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "TGBYYGZ639.Xc3j4q7HuuiY";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = TGBYYGZ639;
+    "get-task-allow" = 0;
+}
+2024-03-06 7:41:29 PM +0000  Writing entitlements for <IDEDistributionItem: 0x6000827506c0; bundleID='Xc3j4q7HuuiY', path='<DVTFilePath:0x600086a2d1f0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60001e54c7d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000b923240; name='Apple Development: ADAM TOMÁS BÁRTA (V5PA96PX22)', hash='DEEB6461BCC814AA59BE00CB75B59DE3B8B1D42A', serialNumber='2DB4677BD855728044AE9D1946F1B737', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-03-06 5:38:22 PM +0000''>', entitlements='{
+    "application-identifier" = "TGBYYGZ639.Xc3j4q7HuuiY";
+    "com.apple.developer.team-identifier" = TGBYYGZ639;
+    "get-task-allow" = 1;
+}', teamID='TGBYYGZ639', identifier='Xc3j4q7HuuiY', executablePath='<DVTFilePath:0x600086a241c0:'/Users/adambarta/Library/Developer/Xcode/Archives/2024-03-06/test_01 06.03.2024 6.48 PM.xcarchive/Products/Applications/connection_app.app/connection_app'>', hardenedRuntime='0'>'> to: /var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/entitlements~~~34nCd2
+2024-03-06 7:41:29 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8DE5BE16110CBF0D5183E48E37E76AACB55A722' '--entitlements' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/entitlements~~~34nCd2' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app'
+2024-03-06 7:41:29 PM +0000  /var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app: replacing existing signature
+2024-03-06 7:41:32 PM +0000  /var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app: signed app bundle with Mach-O thin (arm64) [Xc3j4q7HuuiY]
+2024-03-06 7:41:32 PM +0000  /usr/bin/codesign exited with 0
+2024-03-06 7:41:32 PM +0000  Processing step: IDEDistributionZipODRItemStep
+2024-03-06 7:41:32 PM +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-03-06 7:41:32 PM +0000  Processing step: IDEDistributionCreateIPAStep
+2024-03-06 7:41:32 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Symbols' '--link-dest' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root'
+2024-03-06 7:41:32 PM +0000  building file list ... 
+2024-03-06 7:41:32 PM +0000   0 files...2024-03-06 7:41:32 PM +0000  2 files to consider
+2024-03-06 7:41:32 PM +0000  Symbols/
+2024-03-06 7:41:32 PM +0000  
+2024-03-06 7:41:32 PM +0000  sent 146 bytes  received 26 bytes  344.00 bytes/sec
+total size is 244.64K  speedup is 1456.49
+2024-03-06 7:41:32 PM +0000  /usr/bin/rsync exited with 0
+2024-03-06 7:41:32 PM +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root' '/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Packages/connection_app.ipa'
+2024-03-06 7:41:32 PM +0000  >>> Copying /var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root 
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/_CodeSignature/CodeResources ... 
+2024-03-06 7:41:32 PM +0000  3015 bytes for ./Payload/connection_app.app/_CodeSignature/CodeResources
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/AppIcon60x60@2x.png ... 
+2024-03-06 7:41:32 PM +0000  2689 bytes for ./Payload/connection_app.app/AppIcon60x60@2x.png
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/Main.storyboardc/Info.plist ... 
+2024-03-06 7:41:32 PM +0000  115 bytes for ./Payload/connection_app.app/Main.storyboardc/Info.plist
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/Assets.car ... 
+2024-03-06 7:41:32 PM +0000  25880 bytes for ./Payload/connection_app.app/Assets.car
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/AppIcon76x76@2x~ipad.png ... 
+2024-03-06 7:41:32 PM +0000  3356 bytes for ./Payload/connection_app.app/AppIcon76x76@2x~ipad.png
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/connection_app ... 
+2024-03-06 7:41:32 PM +0000  225872 bytes for ./Payload/connection_app.app/connection_app
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/embedded.mobileprovision ... 
+2024-03-06 7:41:32 PM +0000  14303 bytes for ./Payload/connection_app.app/embedded.mobileprovision
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/Info.plist ... 
+2024-03-06 7:41:32 PM +0000  1539 bytes for ./Payload/connection_app.app/Info.plist
+2024-03-06 7:41:32 PM +0000  copying file ./Payload/connection_app.app/PkgInfo ... 
+2024-03-06 7:41:32 PM +0000  8 bytes for ./Payload/connection_app.app/PkgInfo
+2024-03-06 7:41:32 PM +0000  copying file ./Symbols/C3D0EE62-A2E2-3456-85AE-955582B254F3.symbols ... 
+2024-03-06 7:41:32 PM +0000  250516 bytes for ./Symbols/C3D0EE62-A2E2-3456-85AE-955582B254F3.symbols
+2024-03-06 7:41:32 PM +0000  /usr/bin/ditto exited with 0
+2024-03-06 7:41:32 PM +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-03-06 7:41:32 PM +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-03-06 7:41:32 PM +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-03-06 7:41:32 PM +0000  IDEDistributionItem init <DVTFilePath:0x600086a12b50:'/var/folders/hc/y4sccdy52y34th77l1lc0j_c0000gn/T/XcodeDistPipeline.~~~9MEIn9/Root/Payload/connection_app.app'>
+2024-03-06 7:41:32 PM +0000  Processing step: IDEDistributionCreateManifestStep
+2024-03-06 7:41:32 PM +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
