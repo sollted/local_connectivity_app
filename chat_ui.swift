@@ -40,11 +40,16 @@ struct chat_ui: View {
                             }
                         }
                     }
+                    
                     HStack {
-                        TextField("Enter a message", text: $newMessage,axis: .vertical)
-                            .textFieldStyle(RoundedTextFieldStyle())
-                            .animation(.spring())
+                        
+                        TextField("Enter a message", text: $newMessage, axis: .vertical)
+                            .textFieldStyle(TxtField())
                             .padding(.horizontal)
+                            .onAppear {
+                                withAnimation(.spring()) {
+                                }
+                            }
 
                         if !newMessage.isEmpty {
                             Button {
@@ -70,7 +75,11 @@ struct chat_ui: View {
                                     .font(.system(size: 24, weight: .bold))
                                     .foregroundColor(.blue)
                             }
-                            .animation(.spring())
+                            .onAppear(){
+                                withAnimation(.spring()) {
+                                }
+                            }
+
                         }
                     }
                     .padding()
@@ -82,7 +91,7 @@ struct chat_ui: View {
     
 }
 
-struct RoundedTextFieldStyle: TextFieldStyle {
+struct TxtField: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding(10)
