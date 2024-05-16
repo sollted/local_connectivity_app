@@ -103,7 +103,7 @@ class ChatManager: NSObject, ObservableObject {
     @Published var chats: Dictionary<Person, Chat> = [:]
     
     var myPerson: Person
-    var groupChat: Chat // New property for the group chat
+    @Published var groupChat: Chat // New property for the group chat
     
     override init() {
         session = MCSession(peer: myPeerID, securityIdentity: nil, encryptionPreference: .none)
@@ -111,7 +111,6 @@ class ChatManager: NSObject, ObservableObject {
         browser = MCNearbyServiceBrowser(peer: myPeerID, serviceType: serviceType)
         myPerson = Person(self.session.myPeerID, id: UIDevice.current.identifierForVendor!)
         
-        // Initialize the group chat with a special identifier and a display name indicating it's for group communication
         groupChat = Chat(messages: [], peer: myPeerID, person: Person(MCPeerID(displayName: "GROUP"), id: UUID()), id: UUID())
         
         super.init()
@@ -124,10 +123,9 @@ class ChatManager: NSObject, ObservableObject {
         browser.startBrowsingForPeers()
         
         // Add the group chat to chats dictionary
-        chats[groupChat.person] = groupChat
+        //chats[groupChat.person] = groupChat
     }
-    
-/*
+   /*
     func send(_ messageText: String, chat: Chat) {
         let newMessage = ConnectMessage(messageType: .Message, message: Message(text: messageText, from: self.myPerson))
         var peersToSend: [MCPeerID]
@@ -153,7 +151,40 @@ class ChatManager: NSObject, ObservableObject {
         }
     }
     */
+    func send(_ messageText: String, chat: Chat) {
+        let isGroupChat = chat.id == groupChat.id
+        let newMessage = ConnectMessage(
+            messageType: .Message,
+            message: Message(text: messageText, from: self.myPerson),
+            isGroupMessage: isGroupChat
+        )
+
+        var peersToSend: [MCPeerID]
+
+        if isGroupChat {
+            peersToSend = session.connectedPeers
+        } else {
+            peersToSend = [chat.peer]
+        }
+
+        if !peersToSend.isEmpty {
+            do {
+                let data = try self.encoder.encode(newMessage)
+                try self.session.send(data, toPeers: peersToSend, with: .reliable)
+                DispatchQueue.main.async {
+                    if isGroupChat {
+                        self.groupChat.messages.append(newMessage.message!)
+                    } else {
+                        self.chats[chat.person]?.messages.append(newMessage.message!)
+                    }
+                }
+            } catch {
+                print("Error during message sending: \(error)")
+            }
+        }
+    }
     
+    /*
     func send(_ messageText: String, chat: Chat) {
         // Determine whether the message is a group message based on the chat ID comparison
         let isGroupChat = chat.id == groupChat.id
@@ -194,6 +225,7 @@ class ChatManager: NSObject, ObservableObject {
             }
         }
     }
+     */
     /*
     func reciveInfo(info: ConnectMessage,from:MCPeerID){
         print("Recived Info",info.messageType)
@@ -205,6 +237,39 @@ class ChatManager: NSObject, ObservableObject {
         }
     }
      */
+    func reciveInfo(info: ConnectMessage, from: MCPeerID) {
+        if info.messageType == .Message {
+            if let message = info.message {
+                // Check if it's a group message
+                if info.isGroupMessage {
+                    // Append the message to the group chat
+                    DispatchQueue.main.async {
+                        self.groupChat.messages.append(message)
+                    }
+                } else {
+                    // This is a direct message, find the correct chat based on the sender or create it if necessary
+                    DispatchQueue.main.async {
+                        if let person = self.findPersonByPeerID(from) {
+                            if self.chats[person] == nil {
+                                self.chats[person] = Chat(peer: from, person: person)
+                            }
+                            self.chats[person]?.messages.append(message)
+                        }
+                    }
+                }
+            }
+        } else if info.messageType == .PeerInfo {
+            if let peerInfo = info.peerInfo {
+                newPerson(person: peerInfo, from: from)
+            }
+        }
+    }
+
+    // Helper method to find a person by their MCPeerID
+    func findPersonByPeerID(_ peerID: MCPeerID) -> Person? {
+        return chats.values.first { $0.peer == peerID }?.person
+    }
+    /*
     func reciveInfo(info: ConnectMessage, from: MCPeerID) {
         if info.messageType == .Message {
             if let message = info.message {
@@ -228,6 +293,7 @@ class ChatManager: NSObject, ObservableObject {
         }
     }
 }
+     */
 
     
     func newConnection(peer:MCPeerID){
@@ -249,12 +315,11 @@ class ChatManager: NSObject, ObservableObject {
 
     }
     
-    /*
     func newMessage(message:Message,from:MCPeerID){
         print("New Message ",message.text)
         chats[message.from]!.messages.append(message)
     }
-     */
+    /*
     func newMessage(message: Message, from: MCPeerID) {
         print("New Message ", message.text)
         // Check if the message is from the group chat
@@ -265,7 +330,8 @@ class ChatManager: NSObject, ObservableObject {
             chats[message.from]?.messages.append(message)
         }
     }
-    
+     */
+
 }
 
 extension ChatManager: MCNearbyServiceAdvertiserDelegate {
